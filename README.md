@@ -1,38 +1,36 @@
 <h1 align ="center"> _SHELL() </h1><br>
 
 ## Table of Contents 
----
 - [Authors](#authors)
 - [Introduction](#introduction)
 - [Description](#description)
 - [Installation](#installation)
-- [Test](#Test)
+- [Test](#test)
 - [Files](#files)
 - [Features](#features)
 - [Built With](#built-with)
-- [Acknowledgments](#acknowledgments)
+
 ---
 ## Authors 
----
-* [Kevin Giraldo](https://twitter.com/KevinGiraldo89)
-* [Sara Hincapié](https://twitter.com/SaraHincapiMon1)
+* Kevin Giraldo - [Twitter](https://twitter.com/KevinGiraldo89) - [Linkedin](linkedin.com/in/akegiraldo)
+* Sara Hincapié - [Twitter](https://twitter.com/SaraHincapiMon1) - [Linkedin](linkedin.com/in/sara-hincapi%C3%A9-monsalve-180063107)
+
 ---
 ## Introduction
-> Project for the end of the first trimester at Holberton School. This project is for us to show what we have learnt in C during these 3 months, the use of loops, conditional, macros, structures, variables, pointers and more, also to test our teamwork skills and our work under pressure.
+Project for the end of the first trimester at Holberton School. This project is for us to show what we have learnt in C during these 3 months, the use of loops, conditional, macros, structures, variables, pointers and more, also to test our teamwork skills and our work under pressure.
+
 ---
 ## Description
----
 The shell() compatible command language interpreter that executes commands read from the standard input or from a file.
+
 ---
 ## Installation 
----
 In order to run the shell command interpreter, you must install it in your repository by cloning the following (shown below) in your machine running:
 ```
 git clone https://github.com/shincap8/simple_shell.git
 ```
 ---
 ## Test
----
 - In order to compile the function you must run the following line in your shell:
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c *.h -o hsh
@@ -63,6 +61,7 @@ hsh main.c shell.c test_ls_2
 $
 ```
 ---
+## Files
 - To read the manual you man run:
 ```man ./[FILE]``` taking into account the structure, for our case it would be ```man ./man_1_simple_shell```
 
@@ -80,6 +79,7 @@ $
 | [generate-authors.sh](generate-authors.sh) |This script generate the authors file. |
 | [helpFunctions.c](helpFunctions.c) |This file has the messages for the builtin help. |
 | [main.c](main.c) |This function has the launch function who starts all the process, the builtin function who calls the builtins, the issame function who compares two strings and the issignals this function is to catch a special key. |
+
 ---
 ## Features 
 
@@ -90,6 +90,7 @@ A simple shell must work with the path and without the path
 * help "this must print the help"
 * exit "let you exit the shell"
 * unsetenv "remove an environment variable"
+
 ---
 ### Examples of use
 
